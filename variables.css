@@ -3,5 +3,10 @@
   /* Color Variables */
   --variable-collection-buttonbg: #ff0000;
   --collection-btnbg: #e031b4;
-  --collection-btntext: #6b2766;
+  --collection-btntext: #d7afd4;
+
+  /* Float Variables */
+  --collection-btnpadinline: 16;
+  --collection-btnpadblock: 8;
+  --collection-btnradius: 4px;
 }
