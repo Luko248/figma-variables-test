@@ -1,12 +1,12 @@
 :root {
 
   /* Color Variables */
-  --color_button-bg: #ff0000;
-  --color_btn-bg: #e031b4;
-  --color_btn-text: #d7afd4;
+  --color_button-bg: hsl(0 100% 50%);
+  --color_btn-bg: hsl(315 74% 53%);
+  --color_btn-text: hsl(305 34% 77%);
 
   /* Float Variables */
-  --space_btn-pad-inline: 16px;
-  --space_btn-pad-block: 8px;
-  --radius_btn-radius: 4px;
+  --space_btn-pad-inline: 1rem;
+  --space_btn-pad-block: 0.5rem;
+  --radius_btn-radius: 0.25rem;
 }
