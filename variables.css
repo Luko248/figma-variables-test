@@ -1,12 +1,12 @@
 :root {
 
   /* Color Variables */
-  --variable-collection-buttonbg: #ff0000;
-  --collection-btnbg: #e031b4;
-  --collection-btntext: #d7afd4;
+  --color_button-bg: #ff0000;
+  --color_btn-bg: #e031b4;
+  --color_btn-text: #d7afd4;
 
   /* Float Variables */
-  --collection-btnpadinline: 16;
-  --collection-btnpadblock: 8;
-  --collection-btnradius: 4px;
+  --space_btn-pad-inline: 16px;
+  --space_btn-pad-block: 8px;
+  --radius_btn-radius: 4px;
 }
