@@ -1,12 +1,5 @@
 :root {
 
   /* Color Variables */
-  --color_button-bg: hsl(0 100% 50%);
-  --color_btn-bg: hsl(12 77% 48%);
-  --color_btn-text: hsl(305 21% 7%);
-
-  /* Float Variables */
-  --space_btn-pad-inline: 1rem;
-  --space_btn-pad-block: 0.5rem;
-  --radius_btn-radius: 0.25rem;
+  --color_btn-bg-color: hsl(0 84% 44%);
 }
