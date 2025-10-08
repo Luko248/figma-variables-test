@@ -1,0 +1,10 @@
+@use "_index" as *;
+
+@mixin create-root {
+  @include create-color;
+  @include create-fonts;
+  @include create-gradient;
+  @include create-measures;
+  @include create-shadows;
+}
+
