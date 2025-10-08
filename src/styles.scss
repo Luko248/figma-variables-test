@@ -5,19 +5,20 @@
 }
 
 .button {
-  background: var(--colorBtnBg);
+  background-color: var(--colorBtnBg);
   color: var(--colorBtnText);
-  padding: 12px 24px;
+  padding-inline: var(--measuresBtnPadInline);
+  padding-block: var(--measuresBtnPadBlock);
   border: none;
-  border-radius: 8px;
-  font-size: 16px;
+  border-radius: var(--measuresBtnRadius);
+  transition: background-color 0.25s linear;
+  font-size: 1rem;
   cursor: pointer;
-  font-family:
-    system-ui,
-    -apple-system,
-    sans-serif;
 
-  &:hover {
-    opacity: 0.9;
+  @media (hover: hover) {
+    &:hover {
+      background-color: var(--colorBtnBgHover);
+      opacity: 0.9;
+    }
   }
 }
