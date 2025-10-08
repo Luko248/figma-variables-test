@@ -1,12 +1,12 @@
-@use "root";
+@use "../packages/neuron/ui/src/scss/themes/init/root" as *;
 
 :root {
-  @include root.create-root;
+  @include create-root;
 }
 
 .button {
-  background: var(--colorButtonBg);
-  color: white;
+  background: var(--colorBtnBg);
+  color: var(--colorBtnText);
   padding: 12px 24px;
   border: none;
   border-radius: 8px;
