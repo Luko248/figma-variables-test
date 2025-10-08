@@ -4,6 +4,14 @@
   @include create-root;
 }
 
+body {
+  margin: 0;
+  min-block-size: 100svb;
+  display: grid;
+  place-items: center;
+  font-family: system-ui;
+}
+
 .button {
   background-color: var(--colorBtnBg);
   color: var(--colorBtnText);
@@ -18,7 +26,6 @@
   @media (hover: hover) {
     &:hover {
       background-color: var(--colorBtnBgHover);
-      opacity: 0.9;
     }
   }
 }
