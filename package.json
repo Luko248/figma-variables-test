@@ -1,0 +1,12 @@
+{
+  "name": "scss-button-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "sass src/styles.scss dist/styles.css",
+    "watch": "sass --watch src/styles.scss dist/styles.css",
+    "dev": "bun --hot index.html"
+  },
+  "devDependencies": {
+    "sass": "^1.83.0"
+  }
+}

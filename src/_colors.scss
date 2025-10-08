@@ -8,10 +8,6 @@
 */
 
 @mixin create-color {
-
-/* --- bg --- */
-  --colorBtnBg: oklch(0.594 0.194 34.5);
-
-/* --- text --- */
-  --colorBtnText: oklch(0.178 0.019 329.1);
+  /* --- bg --- */
+  --colorButtonBg: oklch(0.628 0.258 29.2);
 }

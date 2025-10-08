@@ -1,0 +1,23 @@
+@use "root";
+
+:root {
+  @include root.create-root;
+}
+
+.button {
+  background: var(--colorButtonBg);
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
