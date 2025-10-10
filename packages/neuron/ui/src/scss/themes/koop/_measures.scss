@@ -10,31 +10,31 @@
 @mixin create-measures {
 
 /* --- primary --- */
-  --measuresColorPrimary: hsl(203, 62%, 96%);
-  --measuresColorPrimary: hsl(206, 61%, 87%);
-  --measuresColorPrimary: hsl(207, 50%, 80%);
-  --measuresColorPrimary: hsl(206, 47%, 71%);
-  --measuresColorPrimary: hsl(212, 46%, 53%);
-  --measuresColorPrimary: hsl(207, 100%, 28%);
-  --measuresColorPrimary: hsl(212, 75%, 30%);
-  --measuresColorPrimary: hsl(206, 100%, 22%);
-  --measuresColorPrimary: hsl(206, 100%, 19%);
-  --measuresColorPrimary: hsl(206, 100%, 14%);
-  --measuresColorPrimary: hsl(212, 85%, 51%);
-  --measuresColorPrimary: hsl(143, 100%, 5%);
-  --measuresColorPrimary: hsl(180, 29%, 97%);
+  --measuresColorPrimary: hsl(150, 31%, 95%);
+  --measuresColorPrimary: hsl(148, 34%, 85%);
+  --measuresColorPrimary: hsl(147, 35%, 74%);
+  --measuresColorPrimary: hsl(137, 34%, 57%);
+  --measuresColorPrimary: hsl(142, 65%, 38%);
+  --measuresColorPrimary: hsl(148, 100%, 26%);
+  --measuresColorPrimary: hsl(148, 92%, 24%);
+  --measuresColorPrimary: hsl(144, 90%, 20%);
+  --measuresColorPrimary: hsl(143, 100%, 15%);
+  --measuresColorPrimary: hsl(144, 100%, 11%);
+  --measuresColorPrimary: hsl(0, 0%, 100%);
+  --measuresColorPrimary: hsl(0, 0%, 100%);
+  --measuresColorPrimary: hsl(150, 33%, 96%);
 
 /* --- emphasize --- */
-  --measuresColorBrandEmphasize: hsl(212, 46%, 53%);
-  --measuresColorNeutralEmphasize: hsl(210, 14%, 89%);
+  --measuresColorBrandEmphasize: hsl(144, 90%, 20%);
+  --measuresColorNeutralEmphasize: hsl(210, 10%, 23%);
   --measuresColorDangerEmphasize: hsl(8, 60%, 33%);
   --measuresColorInfoEmphasize: hsl(206, 80%, 34%);
   --measuresColorSuccessEmphasize: hsl(100, 75%, 27%);
   --measuresColorWarningEmphasize: hsl(34, 78%, 33%);
 
 /* --- radius --- */
-  --measuresBtnBorderRadius: 6.25rem;
-  --measuresMenuMenuItemBorderRadius: 6.25rem;
+  --measuresBtnBorderRadius: 0.25rem;
+  --measuresMenuMenuItemBorderRadius: 0.25rem;
   --measuresContainerBorderRadius: 0.375rem;
   --measuresModalBorderRadius: 0.375rem;
   --measuresMsgboxBorderRadius: 0.25rem;
@@ -54,7 +54,7 @@
   --measuresChipBorderRadius: 6.25rem;
   --measuresDatepickerBorderRadius: 0.25rem;
   --measuresDockOverlayBorderRadius: 1rem;
-  --measuresDockBtnBorderRadius: 6.25rem;
+  --measuresDockBtnBorderRadius: 0.25rem;
   --measuresFlagBorderRadius: 0.25rem;
   --measuresFuBorderRadius: 0.25rem;
   --measuresScrollbarBarBorderRadius: 6.25rem;
@@ -400,12 +400,12 @@
 
 /* --- danger --- */
   --measuresMsgboxBorderDanger: hsl(8, 73%, 55%);
-  --measuresChckBorderDanger: hsl(8, 73%, 64%);
+  --measuresChckBorderDanger: hsl(8, 73%, 55%);
   --measuresInputBorderDanger: hsl(8, 73%, 55%);
   --measuresToastBorderDanger: hsl(8, 73%, 55%);
-  --measuresRadiobtnBorderDanger: hsl(8, 73%, 64%);
-  --measuresSwitchOffBorderDanger: hsl(8, 73%, 64%);
-  --measuresSwitchOnBorderDanger: hsl(8, 73%, 64%);
+  --measuresRadiobtnBorderDanger: hsl(8, 73%, 55%);
+  --measuresSwitchOffBorderDanger: hsl(8, 73%, 55%);
+  --measuresSwitchOnBorderDanger: hsl(8, 73%, 55%);
 
 /* --- warning --- */
   --measuresMsgboxBorderWarning: hsl(34, 93%, 54%);
@@ -423,8 +423,8 @@
   --measuresRadiobtnBorderSuccess: hsl(100, 77%, 44%);
 
 /* --- infogrey --- */
-  --measuresMsgboxBorderInfogrey: hsl(210, 9%, 31%);
-  --measuresToastBorderInfogrey: hsl(210, 9%, 31%);
+  --measuresMsgboxBorderInfogrey: hsl(210, 14%, 83%);
+  --measuresToastBorderInfogrey: hsl(210, 14%, 83%);
 
 /* --- title --- */
   --measuresPanelFontSizeTitle: 1.25rem;
@@ -455,9 +455,9 @@
   --measuresTabsFontSizeDescription: 0.75rem;
 
 /* --- outline --- */
-  --measuresPanelContainerBorderOutline: hsl(210, 9%, 31%);
-  --measuresContainerBorderOutline: hsl(210, 9%, 31%);
-  --measuresPanelHeaderOutlineBorderOutline: hsl(210, 9%, 31%);
+  --measuresPanelContainerBorderOutline: hsl(210, 14%, 89%);
+  --measuresContainerBorderOutline: hsl(210, 14%, 89%);
+  --measuresPanelHeaderOutlineBorderOutline: hsl(210, 14%, 89%);
 
 /* --- bottom --- */
   --measuresPanelContainerPaddingBottom: 1rem;
@@ -577,72 +577,72 @@
   --measuresSliderControlSize: 1.5rem;
 
 /* --- elevation --- */
-  --measuresColorElevation: hsla(0, 0%, 29%, 0);
-  --measuresColorElevation: hsla(0, 0%, 29%, 0.1);
-  --measuresColorElevation: hsla(0, 0%, 29%, 0.2);
-  --measuresColorElevation: hsla(0, 0%, 29%, 0.2);
-  --measuresColorElevation: hsla(0, 0%, 29%, 0.3);
-  --measuresColorElevation: hsla(0, 0%, 29%, 0.4);
+  --measuresColorElevation: hsla(210, 11%, 15%, 0);
+  --measuresColorElevation: hsla(210, 11%, 15%, 0.1);
+  --measuresColorElevation: hsla(210, 11%, 15%, 0.2);
+  --measuresColorElevation: hsla(210, 11%, 15%, 0.2);
+  --measuresColorElevation: hsla(210, 11%, 15%, 0.4);
+  --measuresColorElevation: hsla(210, 11%, 15%, 0.6);
 
 /* --- border --- */
-  --measuresColorDisabledBorder: hsl(210, 9%, 31%);
+  --measuresColorDisabledBorder: hsl(210, 14%, 83%);
   --measuresTabsBorderWidthItemBlockBorder: 0.0625rem;
   --measuresTabsBorderWidthItemInlineBorder: 0.1875rem;
   --measuresTabsBorderWidthContainerBlockBorder: 0.0625rem;
   --measuresTabsBorderWidthContainerInlineBorder: 0.0625rem;
-  --measuresTabsContainerInlineBorder: hsl(208, 7%, 46%);
-  --measuresTabsContainerBlockBorder: hsl(210, 9%, 31%);
+  --measuresTabsContainerInlineBorder: hsl(210, 11%, 71%);
+  --measuresTabsContainerBlockBorder: hsl(210, 14%, 89%);
 
 /* --- base --- */
-  --measuresChckBorderBase: hsl(210, 9%, 31%);
-  --measuresChckMobileBoxBorderBase: hsl(210, 9%, 31%);
-  --measuresChipPrimaryBorderBase: hsl(206, 100%, 22%);
-  --measuresChipDangerBorderBase: hsl(8, 60%, 33%);
-  --measuresChipWarningBorderBase: hsl(34, 78%, 33%);
-  --measuresChipSuccessBorderBase: hsl(100, 75%, 27%);
-  --measuresChipInfoBorderBase: hsl(206, 80%, 34%);
+  --measuresChckBorderBase: hsl(210, 14%, 83%);
+  --measuresChckMobileBoxBorderBase: hsl(210, 14%, 83%);
+  --measuresChipPrimaryBorderBase: hsl(147, 35%, 74%);
+  --measuresChipDangerBorderBase: hsl(8, 73%, 64%);
+  --measuresChipWarningBorderBase: hsl(34, 93%, 83%);
+  --measuresChipSuccessBorderBase: hsl(100, 61%, 80%);
+  --measuresChipInfoBorderBase: hsl(206, 100%, 84%);
   --measuresChipLifeBorderBase: hsl(137, 56%, 86%);
   --measuresChipPropertyBorderBase: hsl(191, 74%, 87%);
   --measuresChipVehiclesBorderBase: hsl(26, 92%, 85%);
   --measuresChipTravelBorderBase: hsl(44, 100%, 84%);
   --measuresChipBusinessBorderBase: hsl(0, 0%, 85%);
-  --measuresDatepickerBorderBase: hsl(207, 100%, 28%);
-  --measuresDockBtnBorderBase: hsl(206, 100%, 19%);
-  --measuresScrollbarBorderBase: hsl(208, 7%, 46%);
-  --measuresInputBorderBase: hsl(210, 9%, 31%);
-  --measuresPopoverBorderBase: hsl(210, 9%, 31%);
-  --measuresQaBorderBase: hsl(210, 9%, 31%);
-  --measuresStepsBaseBorderBase: hsl(210, 9%, 31%);
+  --measuresDatepickerBorderBase: hsl(142, 65%, 38%);
+  --measuresDockBtnBorderBase: hsl(0, 0%, 100%);
+  --measuresScrollbarBorderBase: hsl(210, 14%, 83%);
+  --measuresInputBorderBase: hsl(210, 14%, 83%);
+  --measuresPopoverBorderBase: hsl(210, 14%, 83%);
+  --measuresQaBorderBase: hsl(210, 14%, 83%);
+  --measuresStepsBaseBorderBase: hsl(210, 14%, 83%);
   --measuresStepsWarningBorderBase: hsl(34, 93%, 54%);
-  --measuresStepsDangerBorderBase: hsl(8, 73%, 64%);
+  --measuresStepsDangerBorderBase: hsl(8, 73%, 55%);
   --measuresStepsSuccessBorderBase: hsl(100, 77%, 44%);
   --measuresStepsInfoBorderBase: hsl(206, 100%, 55%);
-  --measuresTableTdBorderBase: hsl(210, 9%, 31%);
-  --measuresTableThBorderBase: hsl(210, 9%, 31%);
-  --measuresTableTableBorderBase: hsl(210, 9%, 31%);
-  --measuresTreetableTdBorderBase: hsl(210, 9%, 31%);
-  --measuresTreetableThBorderBase: hsl(210, 9%, 31%);
-  --measuresTreetableTableBorderBase: hsl(210, 9%, 31%);
-  --measuresTabsBlockBorderBase: hsl(210, 9%, 31%);
-  --measuresTileBaseBorderBase: hsl(210, 9%, 31%);
-  --measuresTileOutlineBorderBase: hsl(210, 9%, 31%);
+  --measuresTableTdBorderBase: hsl(210, 14%, 89%);
+  --measuresTableThBorderBase: hsl(210, 14%, 89%);
+  --measuresTableTableBorderBase: hsl(210, 11%, 71%);
+  --measuresTreetableTdBorderBase: hsl(210, 14%, 89%);
+  --measuresTreetableThBorderBase: hsl(210, 14%, 89%);
+  --measuresTreetableTableBorderBase: hsl(210, 11%, 71%);
+  --measuresTabsBlockBorderBase: hsl(210, 14%, 83%);
+  --measuresTileBaseBorderBase: hsl(210, 14%, 83%);
+  --measuresTileOutlineBorderBase: hsl(210, 14%, 89%);
   --measuresSizeIconBase: 1rem;
   --measuresInputFontSizeBase: 1rem;
-  --measuresTreeBorderBase: hsl(206, 100%, 22%);
-  --measuresRadiobtnBorderBase: hsl(210, 9%, 31%);
-  --measuresRadiobtnMobileBoxBorderBase: hsl(210, 9%, 31%);
-  --measuresSearchresOutlineBorderBase: hsl(210, 9%, 31%);
+  --measuresTreeBorderBase: hsl(147, 35%, 74%);
+  --measuresRadiobtnBorderBase: hsl(210, 14%, 83%);
+  --measuresRadiobtnMobileBoxBorderBase: hsl(210, 14%, 83%);
+  --measuresSearchresOutlineBorderBase: hsl(210, 14%, 89%);
   --measuresTableThIconOpacityBase: 100%;
   --measuresTreetableThIconOpacityBase: 100%;
   --measuresTabsBorderWidthBase: 0.0625rem;
-  --measuresChartBorderBase: hsl(210, 9%, 31%);
-  --measuresTabsItemInlineBorderBottomBase: hsl(208, 7%, 46%);
-  --measuresTabsItemBlockBorderBottomBase: hsl(210, 9%, 31%);
-  --measuresSliderControlBorderBase: hsl(212, 85%, 51%);
+  --measuresChartBorderBase: hsl(210, 14%, 89%);
+  --measuresTabsItemInlineBorderBottomBase: hsl(210, 11%, 71%);
+  --measuresTabsItemBlockBorderBottomBase: hsl(210, 14%, 89%);
+  --measuresSliderControlBorderBase: hsl(148, 100%, 26%);
 
 /* --- hover --- */
-  --measuresChckBorderHover: hsl(208, 7%, 46%);
-  --measuresChipPrimaryBorderHover: hsl(212, 85%, 51%);
+  --measuresChckBorderHover: hsl(210, 11%, 71%);
+  --measuresChipPrimaryBorderHover: hsl(148, 100%, 26%);
   --measuresChipDangerBorderHover: hsl(8, 73%, 55%);
   --measuresChipWarningBorderHover: hsl(34, 93%, 54%);
   --measuresChipSuccessBorderHover: hsl(100, 77%, 44%);
@@ -652,36 +652,36 @@
   --measuresChipVehiclesBorderHover: hsl(29, 92%, 57%);
   --measuresChipTravelBorderHover: hsl(48, 100%, 50%);
   --measuresChipBusinessBorderHover: hsl(0, 0%, 60%);
-  --measuresInputBorderHover: hsl(208, 7%, 46%);
-  --measuresTileOutlineBorderHover: hsl(212, 46%, 53%);
-  --measuresTreeBorderHover: hsl(212, 85%, 51%);
-  --measuresRadiobtnBorderHover: hsl(208, 7%, 46%);
+  --measuresInputBorderHover: hsl(210, 11%, 71%);
+  --measuresTileOutlineBorderHover: hsl(147, 35%, 74%);
+  --measuresTreeBorderHover: hsl(148, 100%, 26%);
+  --measuresRadiobtnBorderHover: hsl(210, 11%, 71%);
   --measuresRadiobtnBorderDangerHover: hsl(8, 60%, 44%);
   --measuresRadiobtnBorderSuccessHover: hsl(100, 77%, 35%);
   --measuresTableThIconOpacityHover: 100%;
   --measuresTreetableThIconOpacityHover: 100%;
-  --measuresTabsInlineBorderHover: hsl(212, 46%, 53%);
-  --measuresTabsItemInlineBorderBottomHover: hsl(212, 46%, 53%);
+  --measuresTabsInlineBorderHover: hsl(144, 90%, 20%);
+  --measuresTabsItemInlineBorderBottomHover: hsl(144, 90%, 20%);
 
 /* --- lines --- */
-  --measuresDatepickerBorderLines: hsl(210, 9%, 31%);
+  --measuresDatepickerBorderLines: hsl(210, 14%, 83%);
 
 /* --- active --- */
-  --measuresDockBtnBorderActive: hsl(212, 85%, 51%);
-  --measuresTabsInlineBorderActive: hsl(207, 100%, 28%);
-  --measuresTileOutlineBorderActive: hsl(207, 100%, 28%);
-  --measuresContainerBorderActive: hsl(207, 100%, 28%);
+  --measuresDockBtnBorderActive: hsl(142, 65%, 38%);
+  --measuresTabsInlineBorderActive: hsl(142, 65%, 38%);
+  --measuresTileOutlineBorderActive: hsl(142, 65%, 38%);
+  --measuresContainerBorderActive: hsl(142, 65%, 38%);
   --measuresContainerBorderActive: 0.125rem;
   --measuresPanelBorderActive: 0.125rem;
-  --measuresPanelBorderActive: hsl(207, 100%, 28%);
-  --measuresTabsItemInlineBorderBottomActive: hsl(207, 100%, 28%);
-  --measuresTabsItemBlockBorderTopActive: hsl(207, 100%, 28%);
-  --measuresTabsItemBlockBorderTopHighlightActive: hsl(212, 46%, 53%);
-  --measuresTabsItemBlockBorderInlineActive: hsl(210, 9%, 31%);
-  --measuresSliderControlBorderActive: hsl(207, 100%, 28%);
+  --measuresPanelBorderActive: hsl(142, 65%, 38%);
+  --measuresTabsItemInlineBorderBottomActive: hsl(142, 65%, 38%);
+  --measuresTabsItemBlockBorderTopActive: hsl(142, 65%, 38%);
+  --measuresTabsItemBlockBorderTopHighlightActive: hsl(144, 90%, 20%);
+  --measuresTabsItemBlockBorderInlineActive: hsl(210, 14%, 89%);
+  --measuresSliderControlBorderActive: hsl(142, 65%, 38%);
 
 /* --- nonactive --- */
-  --measuresTabsInlineBorderNonactive: hsl(210, 11%, 15%);
+  --measuresTabsInlineBorderNonactive: hsl(210, 14%, 83%);
 
 /* --- dimension --- */
   --measuresDimension: 0rem;
@@ -1125,7 +1125,7 @@
   --measuresOptionPaddingBlockDesktop: 0.25rem;
 
 /* --- filter --- */
-  --measuresOptionBorderFilter: hsl(210, 9%, 31%);
+  --measuresOptionBorderFilter: hsl(210, 14%, 89%);
 
 /* --- area --- */
   --measuresRicheditFontSizeArea: 1rem;
@@ -1167,14 +1167,14 @@
   --measuresValidatorOverlayMobilePaddingRight: 0;
 
 /* --- disabled --- */
-  --measuresTileContrastBorderDisabled: hsl(210, 9%, 31%);
-  --measuresTabsItemBlockBorderTopActiveDisabled: hsl(210, 11%, 71%);
-  --measuresTreeBorderDisabled: hsl(210, 9%, 31%);
-  --measuresSliderControlBorderDisabled: hsl(208, 7%, 46%);
+  --measuresTileContrastBorderDisabled: hsl(0, 0%, 100%);
+  --measuresTabsItemBlockBorderTopActiveDisabled: hsl(208, 7%, 46%);
+  --measuresTreeBorderDisabled: hsl(210, 14%, 83%);
+  --measuresSliderControlBorderDisabled: hsl(210, 11%, 71%);
 
 /* --- mobile --- */
   --measuresOptionPaddingBlockMobile: 0.75rem;
 
 /* --- readonly --- */
-  --measuresSliderControlBorderReadonly: hsl(210, 11%, 71%);
+  --measuresSliderControlBorderReadonly: hsl(208, 7%, 46%);
 }

@@ -10,10 +10,10 @@
 @mixin create-colors {
 
 /* --- token --- */
-  --colorTestToken: hsl(62, 100%, 50%);
+  --colorTestToken: hsl(300, 100%, 50%);
 
 /* --- fade --- */
-  --colorBrandFade: hsl(180, 30%, 96%);
+  --colorBrandFade: hsl(150, 31%, 95%);
   --colorNeutralFade: hsl(210, 20%, 98%);
   --colorDangerFade: hsl(8, 80%, 96%);
   --colorInfoFade: hsl(207, 100%, 96%);
@@ -21,7 +21,7 @@
   --colorWarningFade: hsl(33, 90%, 96%);
 
 /* --- subtle --- */
-  --colorBrandSubtle: hsl(184, 37%, 92%);
+  --colorBrandSubtle: hsl(148, 34%, 85%);
   --colorNeutralSubtle: hsl(210, 17%, 93%);
   --colorDangerSubtle: hsl(7, 72%, 93%);
   --colorInfoSubtle: hsl(205, 100%, 93%);
@@ -29,7 +29,7 @@
   --colorWarningSubtle: hsl(34, 94%, 93%);
 
 /* --- mute --- */
-  --colorBrandMute: hsl(182, 36%, 81%);
+  --colorBrandMute: hsl(147, 35%, 74%);
   --colorNeutralMute: hsl(210, 14%, 89%);
   --colorDangerMute: hsl(9, 73%, 84%);
   --colorInfoMute: hsl(206, 100%, 84%);
@@ -40,7 +40,7 @@
   --colorFdTextMute: hsl(210, 11%, 71%);
 
 /* --- intense --- */
-  --colorBrandIntense: hsl(182, 42%, 47%);
+  --colorBrandIntense: hsl(148, 100%, 26%);
   --colorNeutralIntense: hsl(208, 7%, 46%);
   --colorDangerIntense: hsl(8, 73%, 55%);
   --colorInfoIntense: hsl(206, 100%, 55%);
@@ -56,14 +56,14 @@
   --colorSystemBase: hsl(210, 14%, 83%);
   --colorCanvasBase: hsl(210, 14%, 89%);
   --colorTextBase: hsl(210, 10%, 23%);
-  --colorBtnPrimaryBgBase: hsl(182, 42%, 47%);
+  --colorBtnPrimaryBgBase: hsl(148, 100%, 26%);
   --colorBtnPrimaryTextBase: hsl(0, 0%, 100%);
   --colorBcrumbTextBase: hsl(210, 10%, 23%);
   --colorBcrumbBgBase: hsl(210, 14%, 89%);
   --colorBtnPlainBgBase: hsl(0, 0%, 100%);
-  --colorBtnSecondaryBgBase: hsl(182, 36%, 81%);
-  --colorBtnSecondaryTextBase: hsl(182, 42%, 28%);
-  --colorBtnPlainTextBase: hsl(182, 42%, 28%);
+  --colorBtnSecondaryBgBase: hsl(147, 35%, 74%);
+  --colorBtnSecondaryTextBase: hsl(144, 90%, 20%);
+  --colorBtnPlainTextBase: hsl(144, 90%, 20%);
   --colorBtnWarningBgBase: hsl(34, 93%, 83%);
   --colorBtnWarningTextBase: hsl(34, 78%, 33%);
   --colorBtnDangerBgBase: hsl(9, 73%, 84%);
@@ -74,12 +74,12 @@
   --colorBtnInfoTextBase: hsl(206, 80%, 34%);
   --colorBtnSystemBgBase: hsl(0, 0%, 100%);
   --colorBtnCloseTextBase: hsla(210, 10%, 23%, 0.8);
-  --colorBtnSystemTextBase: hsl(182, 42%, 47%);
+  --colorBtnSystemTextBase: hsl(148, 100%, 26%);
   --colorChckTextBase: hsl(210, 10%, 23%);
-  --colorChckIconBase: hsl(182, 42%, 47%);
-  --colorChckMobileBoxBgBase: hsl(180, 30%, 96%);
+  --colorChckIconBase: hsl(148, 100%, 26%);
+  --colorChckMobileBoxBgBase: hsl(150, 31%, 95%);
   --colorChckBgBase: hsl(0, 0%, 100%);
-  --colorChipPrimaryBgBase: hsl(184, 37%, 92%);
+  --colorChipPrimaryBgBase: hsl(148, 34%, 85%);
   --colorChipPrimaryTextBase: hsl(210, 10%, 23%);
   --colorChipPrimaryIconBase: hsl(210, 10%, 23%);
   --colorChipPrimaryClosebtnBase: hsl(210, 10%, 23%);
@@ -125,7 +125,7 @@
   --colorDockOverlayBgBase: hsla(210, 11%, 15%, 0.2);
   --colorDockBtnWrapperBase: hsla(210, 11%, 15%, 0);
   --colorDockBtnBgBase: hsl(0, 0%, 100%);
-  --colorDockBtnTextBase: hsl(182, 42%, 28%);
+  --colorDockBtnTextBase: hsl(144, 90%, 20%);
   --colorFlagTextBase: hsl(0, 0%, 100%);
   --colorFlagIconBase: hsl(0, 0%, 100%);
   --colorFooterBgBase: hsl(210, 10%, 23%);
@@ -133,7 +133,7 @@
   --colorFooterTextBase: hsl(210, 11%, 71%);
   --colorScrollbarBgBase: hsl(0, 0%, 100%);
   --colorChevronIconBase: hsl(210, 10%, 23%);
-  --colorSpinnerBgBase: hsl(182, 42%, 28%);
+  --colorSpinnerBgBase: hsl(144, 90%, 20%);
   --colorHrlistItemTextBase: hsl(210, 10%, 23%);
   --colorHrlistItemIconBase: hsl(210, 10%, 23%);
   --colorHrlistBaseBgBase: hsl(210, 17%, 93%);
@@ -145,36 +145,36 @@
   --colorHrlistSuccessBgBase: hsl(100, 77%, 44%);
   --colorHrlistSuccessIconBase: hsl(0, 0%, 100%);
   --colorHrlistInfoIconBase: hsl(0, 0%, 100%);
-  --colorInneractionIconBase: hsl(182, 42%, 47%);
+  --colorInneractionIconBase: hsl(148, 100%, 26%);
   --colorInneractionBgBase: hsl(0, 0%, 100%);
-  --colorInneractionTextBase: hsl(182, 42%, 47%);
+  --colorInneractionTextBase: hsl(148, 100%, 26%);
   --colorInputTextBase: hsl(210, 10%, 23%);
   --colorInputBgBase: hsl(0, 0%, 100%);
   --colorInputIconBase: hsl(210, 10%, 23%);
   --colorLabelTextBase: hsl(208, 7%, 46%);
-  --colorLinkPrimaryTextBase: hsl(182, 42%, 47%);
+  --colorLinkPrimaryTextBase: hsl(148, 100%, 26%);
   --colorLinkSecondaryTextBase: hsl(0, 0%, 100%);
   --colorLiteralTextBase: hsl(210, 10%, 23%);
   --colorMenuMenuItemBgBase: hsla(173, 64%, 50%, 0);
-  --colorMenuBgBase: hsl(182, 42%, 47%);
+  --colorMenuBgBase: hsl(148, 100%, 26%);
   --colorMenuMenuItemTextBase: hsl(0, 0%, 100%);
   --colorMenuSubMenuItemBgBase: hsl(0, 0%, 100%);
-  --colorMenuSubMenuItemTextBase: hsl(182, 42%, 47%);
+  --colorMenuSubMenuItemTextBase: hsl(148, 100%, 26%);
   --colorMenuSubMenuBgBase: hsl(0, 0%, 100%);
   --colorMenuMenuHeaderTextBase: hsl(0, 0%, 100%);
   --colorNotbadgeTextBase: hsl(0, 0%, 100%);
   --colorNotbadgeIconBase: hsl(0, 0%, 100%);
   --colorPaginationBgBase: hsl(0, 0%, 100%);
-  --colorPaginationTextBase: hsl(182, 42%, 47%);
+  --colorPaginationTextBase: hsl(148, 100%, 26%);
   --colorPopoverBgBase: hsl(0, 0%, 100%);
   --colorPopoverTextBase: hsl(210, 10%, 23%);
   --colorQaBgBase: hsl(0, 0%, 100%);
   --colorSidebarBgBase: hsl(0, 0%, 100%);
   --colorSidebarTextBase: hsl(210, 10%, 23%);
-  --colorSidebarIconBase: hsl(182, 42%, 47%);
+  --colorSidebarIconBase: hsl(148, 100%, 26%);
   --colorSkeletonBgBase: hsl(210, 17%, 93%);
   --colorSortingBtnBgBase: hsl(0, 0%, 100%);
-  --colorSortingBtnTextBase: hsl(182, 42%, 47%);
+  --colorSortingBtnTextBase: hsl(148, 100%, 26%);
   --colorStepsBaseBgBase: hsl(0, 0%, 100%);
   --colorStepsBaseIconBase: hsl(210, 10%, 23%);
   --colorStepsWarningBgBase: hsl(0, 0%, 100%);
@@ -185,7 +185,7 @@
   --colorStepsSuccessIconBase: hsl(210, 10%, 23%);
   --colorStepsInfoBgBase: hsl(0, 0%, 100%);
   --colorStepsInfoIconBase: hsl(210, 10%, 23%);
-  --colorStepsReadonlyBgBase: hsl(182, 42%, 47%);
+  --colorStepsReadonlyBgBase: hsl(148, 100%, 26%);
   --colorStepsReadonlyIconBase: hsl(0, 0%, 100%);
   --colorStepsBarBgBase: hsl(210, 14%, 83%);
   --colorStickyheaderBgBase: hsla(210, 11%, 15%, 0.6);
@@ -211,7 +211,7 @@
   --colorTileOutlineBgBase: hsl(0, 0%, 100%);
   --colorToastTextBase: hsl(210, 10%, 23%);
   --colorValidatorOverlayBase: hsla(210, 11%, 15%, 0.6);
-  --colorTooltipIconBase: hsl(182, 42%, 47%);
+  --colorTooltipIconBase: hsl(148, 100%, 26%);
   --colorValidatorItemTextBase: hsl(210, 10%, 23%);
   --colorValidatorBgBase: hsl(0, 0%, 100%);
   --colorValidatorTitleTextBase: hsl(210, 10%, 23%);
@@ -222,7 +222,7 @@
   --colorDividerIconBase: hsl(210, 10%, 23%);
   --colorDividerBgBase: hsl(210, 11%, 71%);
   --colorFuTextBase: hsl(210, 10%, 23%);
-  --colorFuDropzoneBase: hsl(182, 42%, 47%);
+  --colorFuDropzoneBase: hsl(148, 100%, 26%);
   --colorFdTextBase: hsl(210, 10%, 23%);
   --colorProgressbarBgBase: hsl(210, 14%, 89%);
   --colorIconBase: 1rem;
@@ -231,23 +231,23 @@
   --colorModalBgBase: hsl(0, 0%, 100%);
   --colorOptionIconBase: hsl(210, 10%, 23%);
   --colorOptionBgBase: hsl(0, 0%, 100%);
-  --colorBgBase: hsl(173, 64%, 50%);
+  --colorBgBase: hsl(142, 65%, 38%);
   --colorOptionTextBase: hsl(210, 10%, 23%);
   --colorTreeBgBase: hsl(0, 0%, 100%);
   --colorTreeTextBase: hsl(210, 10%, 23%);
   --colorTreeIconBase: hsl(210, 10%, 23%);
-  --colorTreeHeaderBgBase: hsl(184, 37%, 92%);
+  --colorTreeHeaderBgBase: hsl(148, 34%, 85%);
   --colorPasswordGuideBgBase: hsl(0, 0%, 100%);
   --colorPasswordGuideTextBase: hsl(210, 10%, 23%);
   --colorPlaintextTextBase: hsl(210, 10%, 23%);
   --colorRadiobtnTextBase: hsl(210, 10%, 23%);
-  --colorRadiobtnToggleBase: hsl(182, 42%, 47%);
+  --colorRadiobtnToggleBase: hsl(148, 100%, 26%);
   --colorRadiobtnBgBase: hsl(0, 0%, 100%);
-  --colorRadiobtnMobileBoxBgBase: hsl(180, 30%, 96%);
+  --colorRadiobtnMobileBoxBgBase: hsl(150, 31%, 95%);
   --colorRicheditAreaVariableBase: hsl(279, 100%, 60%);
   --colorRicheditAreaBase: hsl(210, 10%, 23%);
   --colorSearchresPrimaryBgBase: hsl(0, 0%, 100%);
-  --colorSearchresPrimaryIconBase: hsl(182, 42%, 47%);
+  --colorSearchresPrimaryIconBase: hsl(148, 100%, 26%);
   --colorSearchresOutlineBgBase: hsl(0, 0%, 100%);
   --colorSearchresContrastBgBase: hsl(200, 20%, 97%);
   --colorSecheaderStripeBgBase: hsl(210, 10%, 23%);
@@ -258,7 +258,7 @@
   --colorSidesheetTextBase: hsl(210, 10%, 23%);
   --colorStickyheaderTextBase: hsl(0, 0%, 100%);
   --colorSwitchOffBgBase: hsl(210, 14%, 83%);
-  --colorSwitchOnBgBase: hsl(182, 42%, 47%);
+  --colorSwitchOnBgBase: hsl(148, 100%, 26%);
   --colorSwitchTextBase: hsl(210, 10%, 23%);
   --colorStickyheaderIconBase: hsl(0, 0%, 100%);
   --colorTileContrastBgBase: hsl(0, 0%, 100%);
@@ -270,24 +270,24 @@
   --colorTreeItemsBgBase: hsl(0, 0%, 100%);
   --colorTreeItemsTextBase: hsl(210, 10%, 23%);
   --colorSliderBgBase: hsl(210, 14%, 89%);
-  --colorSliderFgBase: hsl(182, 42%, 47%);
+  --colorSliderFgBase: hsl(148, 100%, 26%);
   --colorSliderControlBgBase: hsl(0, 0%, 100%);
 
 /* --- hover --- */
   --colorHrlistInfoBgHover: hsl(206, 81%, 44%);
-  --colorPanelHeaderBaseBgHover: hsl(184, 37%, 92%);
-  --colorPanelHeaderContrastBgHover: hsl(184, 37%, 92%);
+  --colorPanelHeaderBaseBgHover: hsl(148, 34%, 85%);
+  --colorPanelHeaderContrastBgHover: hsl(148, 34%, 85%);
   --colorSystemHover: hsl(210, 11%, 71%);
   --colorSystemSuccessHover: hsl(100, 77%, 35%);
   --colorSystemInfoHover: hsl(206, 81%, 44%);
   --colorSystemDangerHover: hsl(8, 60%, 44%);
   --colorSystemWarningHover: hsl(34, 79%, 43%);
   --colorBcrumbTextHover: hsl(208, 7%, 46%);
-  --colorBtnPrimaryBgHover: hsl(182, 42%, 28%);
+  --colorBtnPrimaryBgHover: hsl(144, 90%, 20%);
   --colorBtnPrimaryTextHover: hsl(0, 0%, 100%);
-  --colorBtnSecondaryBgHover: hsl(182, 42%, 28%);
+  --colorBtnSecondaryBgHover: hsl(144, 90%, 20%);
   --colorBtnSecondaryTextHover: hsl(0, 0%, 100%);
-  --colorBtnPlainBgHover: hsl(182, 42%, 28%);
+  --colorBtnPlainBgHover: hsl(144, 90%, 20%);
   --colorBtnPlainTextHover: hsl(0, 0%, 100%);
   --colorBtnWarningBgHover: hsl(34, 78%, 33%);
   --colorBtnWarningTextHover: hsl(0, 0%, 100%);
@@ -299,8 +299,8 @@
   --colorBtnInfoTextHover: hsl(0, 0%, 100%);
   --colorBtnSystemBgHover: hsl(210, 14%, 89%);
   --colorBtnCloseTextBaseHover: hsl(210, 10%, 23%);
-  --colorBtnSystemTextHover: hsl(182, 42%, 28%);
-  --colorDatepickerBgHover: hsl(182, 42%, 47%);
+  --colorBtnSystemTextHover: hsl(144, 90%, 20%);
+  --colorDatepickerBgHover: hsl(148, 100%, 26%);
   --colorDatepickerTextHover: hsl(0, 0%, 100%);
   --colorFlagBgDangerHover: hsl(8, 60%, 44%);
   --colorFlagBgWarningHover: hsl(34, 79%, 43%);
@@ -309,20 +309,20 @@
   --colorHrlistDangerBgHover: hsl(8, 60%, 44%);
   --colorHrlistWarningBgHover: hsl(34, 79%, 43%);
   --colorHrlistSuccessBgHover: hsl(100, 77%, 35%);
-  --colorInneractionIconHover: hsl(182, 42%, 28%);
+  --colorInneractionIconHover: hsl(144, 90%, 20%);
   --colorInneractionBgHover: hsl(210, 14%, 89%);
-  --colorInneractionTextHover: hsl(182, 42%, 28%);
-  --colorLinkPrimaryTextHover: hsl(182, 42%, 28%);
-  --colorLinkSecondaryTextHover: hsl(173, 64%, 50%);
-  --colorMenuMenuItemBgHover: hsla(173, 65%, 50%, 0.5);
+  --colorInneractionTextHover: hsl(144, 90%, 20%);
+  --colorLinkPrimaryTextHover: hsl(144, 90%, 20%);
+  --colorLinkSecondaryTextHover: hsl(142, 65%, 38%);
+  --colorMenuMenuItemBgHover: hsla(142, 67%, 38%, 0.5);
   --colorMenuSubMenuItemBgHover: hsl(210, 14%, 89%);
-  --colorMenuSubMenuItemTextHover: hsl(182, 42%, 28%);
-  --colorPaginationBgHover: hsl(182, 42%, 28%);
+  --colorMenuSubMenuItemTextHover: hsl(144, 90%, 20%);
+  --colorPaginationBgHover: hsl(144, 90%, 20%);
   --colorPaginationTextHover: hsl(0, 0%, 100%);
-  --colorPanelHeaderOutlineBgHover: hsl(184, 37%, 92%);
+  --colorPanelHeaderOutlineBgHover: hsl(148, 34%, 85%);
   --colorSortingBtnBgHover: hsl(210, 14%, 89%);
-  --colorSortingBtnTextHover: hsl(182, 42%, 28%);
-  --colorStepsBaseBgHover: hsl(173, 64%, 50%);
+  --colorSortingBtnTextHover: hsl(144, 90%, 20%);
+  --colorStepsBaseBgHover: hsl(142, 65%, 38%);
   --colorStepsBaseIconHover: hsl(0, 0%, 100%);
   --colorStepsWarningBgHover: hsl(34, 79%, 43%);
   --colorStepsWarningIconHover: hsl(0, 0%, 100%);
@@ -332,40 +332,40 @@
   --colorStepsSuccessIconHover: hsl(0, 0%, 100%);
   --colorStepsInfoBgHover: hsl(206, 81%, 44%);
   --colorStepsInfoIconHover: hsl(0, 0%, 100%);
-  --colorStepsReadonlyBgHover: hsl(173, 64%, 50%);
+  --colorStepsReadonlyBgHover: hsl(142, 65%, 38%);
   --colorStepsReadonlyIconHover: hsl(0, 0%, 100%);
-  --colorTableTdBgHover: hsl(184, 37%, 92%);
-  --colorTableTdBgQaHover: hsl(182, 36%, 81%);
-  --colorTableThBgHover: hsl(182, 36%, 81%);
-  --colorTableThTextHover: hsl(182, 42%, 28%);
-  --colorTableThIconHover: hsl(182, 42%, 28%);
-  --colorTreetableTdBgHover: hsl(184, 37%, 92%);
-  --colorTreetableTdBgQaHover: hsl(182, 42%, 28%);
-  --colorTreetableThBgHover: hsl(182, 36%, 81%);
-  --colorTreetableThTextHover: hsl(182, 42%, 28%);
-  --colorTreetableThIconHover: hsl(182, 42%, 28%);
+  --colorTableTdBgHover: hsl(148, 34%, 85%);
+  --colorTableTdBgQaHover: hsl(147, 35%, 74%);
+  --colorTableThBgHover: hsl(147, 35%, 74%);
+  --colorTableThTextHover: hsl(144, 90%, 20%);
+  --colorTableThIconHover: hsl(144, 90%, 20%);
+  --colorTreetableTdBgHover: hsl(148, 34%, 85%);
+  --colorTreetableTdBgQaHover: hsl(144, 90%, 20%);
+  --colorTreetableThBgHover: hsl(147, 35%, 74%);
+  --colorTreetableThTextHover: hsl(144, 90%, 20%);
+  --colorTreetableThIconHover: hsl(144, 90%, 20%);
   --colorTabsBlockBgHover: hsl(210, 14%, 83%);
-  --colorTileBaseBgHover: hsl(180, 30%, 96%);
-  --colorTileOutlineBgHover: hsl(180, 30%, 96%);
-  --colorOptionBgHover: hsl(180, 30%, 96%);
-  --colorOptionBgSelectedHover: hsl(182, 36%, 81%);
-  --colorTreeIconHover: hsl(182, 42%, 28%);
-  --colorTreeHeaderBgHover: hsl(182, 36%, 81%);
-  --colorPopoverBgButtonHover: hsl(182, 42%, 28%);
+  --colorTileBaseBgHover: hsl(150, 31%, 95%);
+  --colorTileOutlineBgHover: hsl(150, 31%, 95%);
+  --colorOptionBgHover: hsl(150, 31%, 95%);
+  --colorOptionBgSelectedHover: hsl(147, 35%, 74%);
+  --colorTreeIconHover: hsl(144, 90%, 20%);
+  --colorTreeHeaderBgHover: hsl(147, 35%, 74%);
+  --colorPopoverBgButtonHover: hsl(144, 90%, 20%);
   --colorRicheditIconHover: hsl(210, 10%, 23%);
-  --colorSearchresPrimaryTextTitleHover: hsl(182, 42%, 28%);
+  --colorSearchresPrimaryTextTitleHover: hsl(144, 90%, 20%);
   --colorSwitchOffBgHover: hsl(210, 11%, 71%);
-  --colorSwitchOnBgHover: hsl(182, 42%, 28%);
-  --colorTooltipIconBaseHover: hsl(182, 42%, 28%);
+  --colorSwitchOnBgHover: hsl(144, 90%, 20%);
+  --colorTooltipIconBaseHover: hsl(144, 90%, 20%);
   --colorValidatorItemBgCategoryHover: hsl(210, 11%, 71%);
   --colorTileContrastBgHover: hsl(0, 0%, 100%);
   --colorValidatorItemBgDangerHover: hsl(0, 0%, 100%);
   --colorValidatorItemBgWarningHover: hsl(0, 0%, 100%);
-  --colorTabsItemBgHover: hsl(184, 37%, 92%);
-  --colorTabsItemBgActiveHover: hsl(184, 37%, 92%);
-  --colorTabsNavButtonTextHover: hsl(182, 42%, 47%);
+  --colorTabsItemBgHover: hsl(148, 34%, 85%);
+  --colorTabsItemBgActiveHover: hsl(148, 34%, 85%);
+  --colorTabsNavButtonTextHover: hsl(148, 100%, 26%);
   --colorFlagBgInfoHover: hsl(206, 81%, 44%);
-  --colorTreeItemsBgHover: hsl(180, 30%, 96%);
+  --colorTreeItemsBgHover: hsl(150, 31%, 95%);
 
 /* --- danger --- */
   --colorMsgboxBgDanger: hsl(7, 72%, 93%);
@@ -393,7 +393,7 @@
   --colorInputdescColorTextDanger: hsl(8, 73%, 55%);
   --colorNotbadgeTextDanger: hsl(8, 73%, 55%);
   --colorSwitchOffBgDanger: hsl(210, 14%, 83%);
-  --colorSwitchOnBgDanger: hsl(182, 42%, 47%);
+  --colorSwitchOnBgDanger: hsl(148, 100%, 26%);
   --colorValidatorItemTextIconDanger: hsl(0, 0%, 100%);
 
 /* --- warning --- */
@@ -483,7 +483,7 @@
   --colorPanelHeaderBaseBgHeader: hsl(0, 0%, 100%);
   --colorPanelHeaderBaseIconHeader: hsl(210, 10%, 23%);
   --colorPanelHeaderBaseTextHeader: hsl(210, 10%, 23%);
-  --colorPanelHeaderContrastBgHeader: hsl(180, 29%, 97%);
+  --colorPanelHeaderContrastBgHeader: hsl(150, 33%, 96%);
   --colorPanelHeaderContrastIconHeader: hsl(210, 10%, 23%);
   --colorPanelHeaderContrastTextHeader: hsl(210, 10%, 23%);
   --colorPanelHeaderOutlineBgHeader: hsl(0, 0%, 100%);
@@ -495,7 +495,7 @@
   --colorPanelHeaderBaseBgOpen: hsl(0, 0%, 100%);
   --colorPanelHeaderBaseIconOpen: hsl(210, 10%, 23%);
   --colorPanelHeaderBaseTextOpen: hsl(210, 10%, 23%);
-  --colorPanelHeaderContrastBgOpen: hsl(180, 29%, 97%);
+  --colorPanelHeaderContrastBgOpen: hsl(150, 33%, 96%);
   --colorPanelHeaderContrastIconOpen: hsl(210, 10%, 23%);
   --colorPanelHeaderContrastTextOpen: hsl(210, 10%, 23%);
   --colorPanelHeaderOutlineBgOpen: hsl(0, 0%, 100%);
@@ -516,8 +516,8 @@
   --colorTabsInlineBgLocked: hsl(210, 14%, 83%);
 
 /* --- contrast --- */
-  --colorPanelContainerBgContrast: hsl(180, 29%, 97%);
-  --colorContainerBgContrast: hsl(180, 29%, 97%);
+  --colorPanelContainerBgContrast: hsl(150, 33%, 96%);
+  --colorContainerBgContrast: hsl(150, 33%, 96%);
   --colorHrlistItemTextContrast: hsl(0, 0%, 100%);
   --colorHrlistItemIconContrast: hsl(0, 0%, 100%);
 
@@ -551,10 +551,10 @@
   --colorTxtareaCounterText: hsl(208, 7%, 46%);
 
 /* --- brand --- */
-  --colorTextBrand: hsl(182, 42%, 47%);
-  --colorLiteralStateBgBrand: hsl(184, 37%, 92%);
-  --colorNotbadgeBgBrand: hsl(182, 42%, 47%);
-  --colorNotbadgeTextBrand: hsl(182, 42%, 47%);
+  --colorTextBrand: hsl(148, 100%, 26%);
+  --colorLiteralStateBgBrand: hsl(148, 34%, 85%);
+  --colorNotbadgeBgBrand: hsl(148, 100%, 26%);
+  --colorNotbadgeTextBrand: hsl(148, 100%, 26%);
 
 /* --- nonactive --- */
   --colorBcrumbTextNonactive: hsl(208, 7%, 46%);
@@ -562,15 +562,15 @@
 
 /* --- button --- */
   --colorBcrumbTextButton: hsl(0, 0%, 100%);
-  --colorPopoverBgButton: hsl(182, 42%, 47%);
+  --colorPopoverBgButton: hsl(148, 100%, 26%);
   --colorPopoverTextButton: hsl(0, 0%, 100%);
 
 /* --- active --- */
-  --colorBtnPrimaryBgActive: hsl(173, 64%, 50%);
+  --colorBtnPrimaryBgActive: hsl(142, 65%, 38%);
   --colorBtnPrimaryTextActive: hsl(0, 0%, 100%);
-  --colorBtnSecondaryBgActive: hsl(173, 64%, 50%);
+  --colorBtnSecondaryBgActive: hsl(142, 65%, 38%);
   --colorBtnSecondaryTextActive: hsl(0, 0%, 100%);
-  --colorBtnPlainBgActive: hsl(173, 64%, 50%);
+  --colorBtnPlainBgActive: hsl(142, 65%, 38%);
   --colorBtnPlainTextActive: hsl(0, 0%, 100%);
   --colorBtnWarningBgActive: hsl(34, 93%, 54%);
   --colorBtnWarningTextActive: hsl(0, 0%, 100%);
@@ -580,21 +580,21 @@
   --colorBtnSuccessTextActive: hsl(0, 0%, 100%);
   --colorBtnInfoBgActive: hsl(206, 100%, 55%);
   --colorBtnInfoTextActive: hsl(0, 0%, 100%);
-  --colorBtnSystemBgActive: hsl(173, 64%, 50%);
+  --colorBtnSystemBgActive: hsl(142, 65%, 38%);
   --colorBtnSystemTextActive: hsl(0, 0%, 100%);
-  --colorDockBtnBgActive: hsl(173, 64%, 50%);
+  --colorDockBtnBgActive: hsl(142, 65%, 38%);
   --colorDockBtnTextActive: hsl(0, 0%, 100%);
-  --colorMenuMenuItemBgActive: hsl(173, 64%, 50%);
-  --colorMenuSubMenuItemBgActive: hsl(173, 64%, 50%);
+  --colorMenuMenuItemBgActive: hsl(142, 65%, 38%);
+  --colorMenuSubMenuItemBgActive: hsl(142, 65%, 38%);
   --colorMenuSubMenuItemTextActive: hsl(0, 0%, 100%);
-  --colorPaginationBgActive: hsl(173, 64%, 50%);
+  --colorPaginationBgActive: hsl(142, 65%, 38%);
   --colorPaginationTextActive: hsl(0, 0%, 100%);
   --colorSkeletonBgActive: hsl(210, 20%, 98%);
-  --colorSortingBtnBgActive: hsl(173, 64%, 50%);
-  --colorSortingBtnBgHoverActive: hsl(182, 42%, 28%);
+  --colorSortingBtnBgActive: hsl(142, 65%, 38%);
+  --colorSortingBtnBgHoverActive: hsl(144, 90%, 20%);
   --colorSortingBtnTextActive: hsl(0, 0%, 100%);
   --colorSortingBtnTextHoverActive: hsl(0, 0%, 100%);
-  --colorStepsBaseBgActive: hsl(182, 42%, 47%);
+  --colorStepsBaseBgActive: hsl(148, 100%, 26%);
   --colorStepsBaseIconActive: hsl(0, 0%, 100%);
   --colorStepsWarningBgActive: hsl(34, 93%, 54%);
   --colorStepsWarningIconActive: hsl(0, 0%, 100%);
@@ -604,24 +604,24 @@
   --colorStepsSuccessIconActive: hsl(0, 0%, 100%);
   --colorStepsInfoBgActive: hsl(206, 100%, 55%);
   --colorStepsInfoIconActive: hsl(0, 0%, 100%);
-  --colorStepsReadonlyBgActive: hsl(182, 42%, 47%);
+  --colorStepsReadonlyBgActive: hsl(148, 100%, 26%);
   --colorStepsReadonlyIconActive: hsl(0, 0%, 100%);
-  --colorTableTdBgActive: hsl(180, 30%, 96%);
-  --colorTableThBgActive: hsl(184, 37%, 92%);
-  --colorTableThTextActive: hsl(182, 42%, 28%);
-  --colorTableThIconActive: hsl(182, 42%, 28%);
-  --colorTreetableTdBgActive: hsl(180, 30%, 96%);
-  --colorTreetableThBgActive: hsl(184, 37%, 92%);
-  --colorTreetableThTextActive: hsl(182, 42%, 28%);
-  --colorTreetableThIconActive: hsl(182, 42%, 28%);
+  --colorTableTdBgActive: hsl(150, 31%, 95%);
+  --colorTableThBgActive: hsl(148, 34%, 85%);
+  --colorTableThTextActive: hsl(144, 90%, 20%);
+  --colorTableThIconActive: hsl(144, 90%, 20%);
+  --colorTreetableTdBgActive: hsl(150, 31%, 95%);
+  --colorTreetableThBgActive: hsl(148, 34%, 85%);
+  --colorTreetableThTextActive: hsl(144, 90%, 20%);
+  --colorTreetableThIconActive: hsl(144, 90%, 20%);
   --colorTabsBlockBgBaseActive: hsl(0, 0%, 100%);
-  --colorTileBaseBgActive: hsl(184, 37%, 92%);
-  --colorTileOutlineBgActive: hsl(184, 37%, 92%);
-  --colorRicheditIconActive: hsl(182, 42%, 47%);
+  --colorTileBaseBgActive: hsl(148, 34%, 85%);
+  --colorTileOutlineBgActive: hsl(148, 34%, 85%);
+  --colorRicheditIconActive: hsl(148, 100%, 26%);
   --colorTileContrastBgActive: hsl(0, 0%, 100%);
   --colorTabsItemBgActive: hsl(0, 0%, 100%);
-  --colorPopoverBgButtonActive: hsl(173, 64%, 50%);
-  --colorSliderControlBgActive: hsl(173, 64%, 50%);
+  --colorPopoverBgButtonActive: hsl(142, 65%, 38%);
+  --colorSliderControlBgActive: hsl(142, 65%, 38%);
 
 /* --- invalid --- */
   --colorChckTextInvalid: hsl(8, 73%, 55%);
@@ -687,13 +687,13 @@
   --colorSliderFgDisabled: hsl(210, 11%, 71%);
 
 /* --- selected --- */
-  --colorDatepickerBgSelected: hsl(173, 64%, 50%);
+  --colorDatepickerBgSelected: hsl(142, 65%, 38%);
   --colorDatepickerTextSelected: hsl(0, 0%, 100%);
   --colorInneractionIconSelected: hsl(0, 0%, 100%);
-  --colorInneractionBgSelected: hsl(173, 64%, 50%);
+  --colorInneractionBgSelected: hsl(142, 65%, 38%);
   --colorInneractionTextSelected: hsl(0, 0%, 100%);
-  --colorOptionBgSelected: hsl(184, 37%, 92%);
-  --colorTreeItemsBgSelected: hsl(184, 37%, 92%);
+  --colorOptionBgSelected: hsl(148, 34%, 85%);
+  --colorTreeItemsBgSelected: hsl(148, 34%, 85%);
 
 /* --- bar --- */
   --colorScrollbarBgBar: hsl(210, 14%, 83%);
@@ -715,10 +715,10 @@
   --colorSliderFgReadonly: hsl(208, 7%, 46%);
 
 /* --- require --- */
-  --colorLabelTextRequire: hsl(182, 42%, 47%);
+  --colorLabelTextRequire: hsl(148, 100%, 26%);
 
 /* --- link --- */
-  --colorLiteralTextLink: hsl(182, 42%, 47%);
+  --colorLiteralTextLink: hsl(148, 100%, 26%);
   --colorStickyheaderTextLink: hsl(0, 0%, 100%);
 
 /* --- noaccess --- */
@@ -728,45 +728,45 @@
   --colorStickyheaderStripeBgLife: hsl(132, 46%, 67%);
   --colorSearchresPrimaryIconLife: hsl(132, 46%, 67%);
   --colorSecheaderStripeBgLife: hsl(132, 46%, 67%);
-  --colorProductsLife: hsl(0, 0%, 100%);
+  --colorProductsLife: hsl(132, 46%, 67%);
 
 /* --- property --- */
   --colorStickyheaderStripeBgProperty: hsl(192, 70%, 59%);
   --colorSearchresPrimaryIconProperty: hsl(192, 70%, 59%);
   --colorSecheaderStripeBgProperty: hsl(192, 70%, 59%);
-  --colorProductsProperty: hsl(0, 0%, 100%);
+  --colorProductsProperty: hsl(192, 70%, 59%);
 
 /* --- vehicles --- */
   --colorStickyheaderStripeBgVehicles: hsl(29, 92%, 57%);
   --colorSearchresPrimaryIconVehicles: hsl(29, 92%, 57%);
-  --colorProductsVehicles: hsl(0, 0%, 100%);
+  --colorProductsVehicles: hsl(29, 92%, 57%);
 
 /* --- travel --- */
   --colorStickyheaderStripeBgTravel: hsl(48, 100%, 50%);
   --colorSearchresPrimaryIconTravel: hsl(48, 100%, 50%);
   --colorSecheaderStripeBgTravel: hsl(48, 100%, 50%);
-  --colorProductsTravel: hsl(0, 0%, 100%);
+  --colorProductsTravel: hsl(48, 100%, 50%);
 
 /* --- business --- */
   --colorStickyheaderStripeBgBusiness: hsl(0, 0%, 60%);
   --colorSearchresPrimaryIconBusiness: hsl(0, 0%, 60%);
   --colorSecheaderStripeBgBusiness: hsl(0, 0%, 60%);
-  --colorProductsBusiness: hsl(0, 0%, 100%);
+  --colorProductsBusiness: hsl(0, 0%, 60%);
 
 /* --- title --- */
   --colorStickyheaderTextTitle: hsl(0, 0%, 100%);
   --colorFilterTextTitle: hsl(210, 10%, 23%);
-  --colorSearchresPrimaryTextTitle: hsl(182, 42%, 47%);
+  --colorSearchresPrimaryTextTitle: hsl(148, 100%, 26%);
   --colorSecheaderTextTitle: hsl(210, 10%, 23%);
 
 /* --- description --- */
   --colorStickyheaderTextDescription: hsl(0, 0%, 100%);
 
 /* --- stripped --- */
-  --colorTableTdBgStripped: hsl(180, 30%, 96%);
+  --colorTableTdBgStripped: hsl(150, 31%, 95%);
 
 /* --- more --- */
-  --colorTabsInlineIconMore: hsl(182, 42%, 47%);
+  --colorTabsInlineIconMore: hsl(148, 100%, 26%);
   --colorTabsBlockIconMore: hsl(210, 10%, 23%);
 
 /* --- applegreen --- */
@@ -876,7 +876,7 @@
   --colorFilterTextChipSet: hsl(210, 10%, 23%);
 
 /* --- progress --- */
-  --colorFuUploadProgress: hsl(182, 36%, 81%);
+  --colorFuUploadProgress: hsl(147, 35%, 74%);
 
 /* --- overlay --- */
   --colorSpinnerBgOverlay: hsla(210, 11%, 15%, 0.2);
@@ -918,7 +918,7 @@
   --colorSecheaderStripeBgVehicle: hsl(29, 92%, 57%);
 
 /* --- regres --- */
-  --colorSecheaderStripeBgRegres: hsl(182, 42%, 28%);
+  --colorSecheaderStripeBgRegres: hsl(144, 90%, 20%);
   --colorStickyheaderStripeBgRegres: hsl(153, 71%, 19%);
 
 /* --- row --- */
@@ -935,13 +935,13 @@
   --colorValidatorTitleTextName: hsl(0, 0%, 100%);
 
 /* --- red --- */
-  --colorBrandSecondaryRed: hsl(0, 0%, 100%);
+  --colorBrandSecondaryRed: hsl(8, 73%, 55%);
 
 /* --- green --- */
-  --colorBrandSecondaryGreen: hsl(0, 0%, 100%);
+  --colorBrandSecondaryGreen: hsl(163, 100%, 17%);
 
 /* --- purple --- */
-  --colorBrandSecondaryPurple: hsl(0, 0%, 100%);
+  --colorBrandSecondaryPurple: hsl(286, 37%, 54%);
 
 /* --- meeting --- */
   --colorEventMeeting: hsl(0, 0%, 100%);
@@ -979,5 +979,5 @@
   --colorIconUltra: 2.5rem;
 
 /* --- selectedhover --- */
-  --colorTreeItemsBgSelectedhover: hsl(182, 36%, 81%);
+  --colorTreeItemsBgSelectedhover: hsl(147, 35%, 74%);
 }

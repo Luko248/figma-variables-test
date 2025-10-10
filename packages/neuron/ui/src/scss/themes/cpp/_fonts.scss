@@ -10,29 +10,29 @@
 @mixin create-fonts {
 
 /* --- primary --- */
-  --fontsFontFamilyPrimary: Koop Pro;
+  --fontsFontFamilyPrimary: CPP Sans;
 
 /* --- medium --- */
-  --fontsFontWeightMedium: 500;
-  --fontsColorBrandMedium: hsl(148, 92%, 24%);
-  --fontsColorNeutralMedium: hsl(208, 7%, 46%);
+  --fontsFontWeightMedium: 700;
+  --fontsColorBrandMedium: hsl(212, 46%, 53%);
+  --fontsColorNeutralMedium: hsl(210, 11%, 71%);
   --fontsColorDangerMedium: hsl(8, 73%, 64%);
   --fontsColorInfoMedium: hsl(206, 100%, 64%);
   --fontsColorSuccessMedium: hsl(100, 61%, 55%);
   --fontsColorWarningMedium: hsl(34, 94%, 63%);
   --fontsBtnIconMedium: 1.25rem;
   --fontsBtngroupMedium: 0.5rem;
-  --fontsDatepickerFontWeightMedium: 500;
+  --fontsDatepickerFontWeightMedium: 700;
   --fontsIconMedium: 1.5rem;
   --fontsPasswordGuideBarMedium: hsl(34, 93%, 54%);
   --fontsTableIconMedium: 1.25rem;
   --fontsTreetableIconMedium: 1.25rem;
-  --fontsTabsFontWeightMedium: 500;
+  --fontsTabsFontWeightMedium: 700;
 
 /* --- weight --- */
-  --fontsDividerFontWeight: 500;
+  --fontsDividerFontWeight: 700;
   --fontsBcrumbFontWeight: 400;
-  --fontsBtnFontWeight: 500;
+  --fontsBtnFontWeight: 700;
   --fontsChckFontWeight: 400;
   --fontsChipFontWeight: 400;
   --fontsFlagFontWeight: 700;
@@ -42,9 +42,9 @@
   --fontsInneractionFontWeight: 400;
   --fontsInputFontWeight: 400;
   --fontsInputdescFontWeight: 400;
-  --fontsLabelFontWeight: 500;
+  --fontsLabelFontWeight: 700;
   --fontsLinkFontWeight: 400;
-  --fontsLiteralFontWeight0: 500;
+  --fontsLiteralFontWeight0: 700;
   --fontsMenuMenuItemFontWeight: 400;
   --fontsNotbadgeFontWeight: 400;
   --fontsOptionFontWeight: 400;
@@ -55,10 +55,10 @@
   --fontsPlaintextFontWeight: 400;
   --fontsPopoverFontWeight: 400;
   --fontsRadiobtnFontWeight: 400;
-  --fontsSortingBtnFontWeight: 500;
-  --fontsStepsFontWeight: 500;
+  --fontsSortingBtnFontWeight: 700;
+  --fontsStepsFontWeight: 700;
   --fontsSwitchFontWeight: 400;
-  --fontsTagFontWeight: 500;
+  --fontsTagFontWeight: 700;
   --fontsTooltipFontWeight: 400;
   --fontsTxtareaCounterFontWeight: 400;
   --fontsLiteralFontWeight: 0;
@@ -68,24 +68,24 @@
   --fontsPanelFontWeightTitle: 700;
   --fontsSidebarFontWeightTitle: 700;
   --fontsSidesheetFontWeightTitle: 700;
-  --fontsContmsgFontWeightTitle: 500;
-  --fontsFilterFontFamilyTitle: Koop Pro;
+  --fontsContmsgFontWeightTitle: 700;
+  --fontsFilterFontFamilyTitle: CPP Sans;
   --fontsFilterFontWeightTitle: 700;
-  --fontsModalFontFamilyTitle: Koop Pro;
+  --fontsModalFontFamilyTitle: CPP Sans;
   --fontsMsgboxFontWeightTitle: 700;
-  --fontsPanelFontFamilyTitle: Koop Pro;
+  --fontsPanelFontFamilyTitle: CPP Sans;
   --fontsPasswordFontWeightTitle: 700;
-  --fontsSearchresFontFamilyTitle: Koop Pro;
+  --fontsSearchresFontFamilyTitle: CPP Sans;
   --fontsSearchresFontWeightTitle: 700;
-  --fontsSecheaderFontFamilyTitle: Koop Pro;
+  --fontsSecheaderFontFamilyTitle: CPP Sans;
   --fontsSecheaderFontWeightTitle: 700;
-  --fontsSidebarFontFamilyTitle: Koop Pro;
-  --fontsSidesheetFontFamilyTitle: Koop Pro;
-  --fontsStickyheaderFontFamilyTitle: Koop Pro;
+  --fontsSidebarFontFamilyTitle: CPP Sans;
+  --fontsSidesheetFontFamilyTitle: CPP Sans;
+  --fontsStickyheaderFontFamilyTitle: CPP Sans;
   --fontsStickyheaderFontWeightTitle: 700;
   --fontsToastFontWeightTitle: 700;
   --fontsValidatorFontWeightTitle: 700;
-  --fontsSecheaderFontFamilyTitle2: Koop Pro;
+  --fontsSecheaderFontFamilyTitle2: CPP Sans;
   --fontsSecheaderFontWeightTitle2: 700;
 
 /* --- regular --- */
@@ -95,20 +95,20 @@
   --fontsTabsFontWeightRegular: 400;
 
 /* --- light --- */
-  --fontsColorTextLight: hsl(210, 11%, 15%);
-  --fontsTooltipTextLight: hsl(210, 14%, 89%);
-  --fontsTooltipBgLight: hsl(210, 14%, 89%);
+  --fontsColorTextLight: hsl(0, 0%, 100%);
+  --fontsTooltipTextLight: hsl(0, 0%, 100%);
+  --fontsTooltipBgLight: hsl(0, 0%, 100%);
   --fontsFontWeightLight: 300;
 
 /* --- highlight --- */
-  --fontsTabsBlockBgHighlight: hsl(148, 100%, 26%);
+  --fontsTabsBlockBgHighlight: hsl(207, 100%, 28%);
   --fontsTabsBlockTextHighlight: hsl(0, 0%, 100%);
-  --fontsTabsItemBgHighlight: hsl(148, 100%, 26%);
+  --fontsTabsItemBgHighlight: hsl(207, 100%, 28%);
   --fontsTabsItemTextHighlight: hsl(0, 0%, 100%);
 
 /* --- hover --- */
-  --fontsTabsBlockBgHighlightHover: hsl(142, 65%, 38%);
-  --fontsTabsItemBgHighlightHover: hsl(142, 65%, 38%);
+  --fontsTabsBlockBgHighlightHover: hsl(206, 100%, 22%);
+  --fontsTabsItemBgHighlightHover: hsl(206, 100%, 22%);
 
 /* --- bold --- */
   --fontsFontWeightBold: 700;
@@ -126,7 +126,7 @@
   --fontsChipFontFamily: Inter;
   --fontsContmsgFontFamily: Inter;
   --fontsDatepickerFontFamily: Inter;
-  --fontsDividerFontFamily: Koop Pro;
+  --fontsDividerFontFamily: CPP Sans;
   --fontsFlagFontFamily: Inter;
   --fontsFuFontFamily: Inter;
   --fontsFdFontFamily: Inter;
@@ -165,8 +165,8 @@
   --fontsToastFontWeightMessage: 400;
 
 /* --- set --- */
-  --fontsFilterFontFamilyChipSet: Koop Pro;
-  --fontsFilterFontWeightChipSet: 500;
+  --fontsFilterFontFamilyChipSet: CPP Sans;
+  --fontsFilterFontWeightChipSet: 700;
 
 /* --- description --- */
   --fontsModalFontFamilyDescription: Inter;
