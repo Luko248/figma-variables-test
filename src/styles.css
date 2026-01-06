@@ -8,7 +8,7 @@ body {
 
 .button {
   background-color: var(--colorTestToken);
-  color: var(--colorTextLight);
+  color: var(--colorText);
   padding-inline: 1.5rem;
   padding-block: 1rem;
   border: none;
