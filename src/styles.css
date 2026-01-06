@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  min-block-size: 100svb;
+  align-content: center;
+  font-family: system-ui;
+  text-align: center;
+}
+
+.button {
+  background-color: var(--colorTestToken);
+  color: var(--colorTextLight);
+  padding-inline: 1.5rem;
+  padding-block: 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  transition: background-color 0.25s linear;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+@media (hover: hover) {
+  .button:hover {
+    background-color: var(--colorBrandEmphasize);
+  }
+}
