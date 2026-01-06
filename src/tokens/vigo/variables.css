@@ -1,6 +1,6 @@
 /*
  * Design tokens exported from Figma
- * Exported at: 2026-01-06T11:09:03.466Z
+ * Exported at: 2026-01-06T11:20:41.774Z
  * Format: Raw CSS variables grouped by kind
  */
 :root {
@@ -195,7 +195,7 @@
   --colorSystemSuccessHover: oklch(0.619 0.185 138.392);
   --colorSystemWarning: oklch(0.761 0.164 64.996);
   --colorSystemWarningHover: oklch(0.642 0.137 65.692);
-  --colorTestToken: oklch(0.961 0.213 112.361);
+  --colorTestToken: oklch(0.891 0.147 156.646);
   --colorTextBase: oklch(0.349 0.013 248.215);
   --colorTextBrand: oklch(0.673 0.09 198.043);
   --colorTextDanger: oklch(0.622 0.185 31.597);
