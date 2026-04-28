@@ -1,6 +1,6 @@
 /*
  * Design tokens exported from Figma
- * Exported at: 2026-04-28T08:36:41.607Z
+ * Exported at: 2026-04-28T12:13:17.808Z
  * Format: Raw CSS variables grouped by kind
  */
 :root {
@@ -32,7 +32,7 @@
   --colorBrandSecondaryPurple: oklch(0.59 0.145 317.586);
   --colorBrandSecondaryRed: oklch(0.621 0.186 31.008);
   --colorBrandSubtle: oklch(0.902 0.033 162.228);
-  --colorCanvasBase: oklch(0.961 0 0);
+  --colorCanvasBase: oklch(0.978 0.003 228.784);
   --colorCelestialblue100: oklch(0.933 0.024 234.428);
   --colorCelestialblue200: oklch(0.853 0.056 230.993);
   --colorCelestialblue600: oklch(0.59 0.115 237.531);
@@ -548,7 +548,7 @@
   --actionbarPaddingBlock: 1rem;
   --actionbarPaddingInline: 1rem;
   --autocompBgBase: oklch(0.64 0.174 29.386);
-  --bcrumbBgBase: oklch(0.961 0 0);
+  --bcrumbBgBase: oklch(0.978 0.003 228.784);
   --bcrumbBgPaddingBlock: 0.5rem;
   --bcrumbBgPaddingInline: 1rem;
   --bcrumbBorderRadius: 0.25rem;
