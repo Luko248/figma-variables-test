@@ -1,0 +1,67 @@
+/*
+ * Design tokens exported from Figma
+ * Exported at: 2026-05-03T06:38:16.720Z
+ * Format: Tailwind CSS v4 @theme variables
+ * Usage: import this file after @import "tailwindcss";
+ */
+@theme static {
+  /* Colors */
+  /* Fonts */
+  --font-weight-primitive-weight-bold-default: 700;
+  --font-weight-primitive-weight-light-default: 300;
+  --font-weight-primitive-weight-medium-default: 500;
+  --font-weight-primitive-weight-semibold-default: 600;
+  /* Measures */
+  --duration-primitive-motion-fast-default: 1ms;
+  --duration-primitive-motion-normal-default: 2ms;
+  --duration-primitive-motion-slow-default: 3ms;
+  --radius-primitive-root-2xl-default: 1rem;
+  --radius-primitive-root-full-default: 624.94rem;
+  --radius-primitive-root-lg-default: 0.75rem;
+  --radius-primitive-root-md-default: 0.5rem;
+  --radius-primitive-root-none-default: 0rem;
+  --radius-primitive-root-sm-default: 0.25rem;
+  --spacing-border-primitive-width-lg-default: 0.19rem;
+  --spacing-border-primitive-width-md-default: 0.13rem;
+  --spacing-border-primitive-width-sm-default: 0.06rem;
+  --spacing-primitive-container-2xl-default: 42rem;
+  --spacing-primitive-container-lg-default: 32rem;
+  --spacing-primitive-container-md-default: 28rem;
+  --spacing-primitive-container-sm-default: 24rem;
+  --spacing-primitive-container-xl-default: 36rem;
+  --spacing-primitive-container-xs-default: 20rem;
+  --spacing-primitive-dimension-32-default: 2rem;
+  --spacing-primitive-dimension-48-default: 3rem;
+  --spacing-primitive-dimension-64-default: 4rem;
+  --spacing-primitive-dimension-70-default: 4.38rem;
+  --spacing-primitive-dimension-96-default: 6rem;
+  --spacing-primitive-ring-offset-default: 0.13rem;
+  --spacing-primitive-ring-width-default: 0.13rem;
+  --spacing-primitive-space-0-default: 0rem;
+  --spacing-primitive-space-100-default: 0.31rem;
+  --spacing-primitive-space-150-default: 0.57rem;
+  --spacing-primitive-space-200-default: 0.88rem;
+  --spacing-primitive-space-250-default: 1.13rem;
+  --spacing-primitive-space-300-default: 1.45rem;
+  --spacing-primitive-space-350-default: 1.7rem;
+  --spacing-primitive-space-400-default: 2.01rem;
+  --spacing-primitive-space-450-default: 2.27rem;
+  --spacing-primitive-space-50-default: 0.13rem;
+  --spacing-primitive-space-500-default: 2.58rem;
+  --spacing-primitive-space-550-default: 2.83rem;
+  --spacing-primitive-space-600-default: 3.4rem;
+  --spacing-primitive-space-650-default: 3.71rem;
+  --spacing-primitive-space-700-default: 3.96rem;
+  --spacing-primitive-space-750-default: 4.53rem;
+  --spacing-primitive-space-800-default: 5.1rem;
+  --spacing-primitive-space-850-default: 5.66rem;
+  --spacing-primitive-space-900-default: 6.23rem;
+  --spacing-primitive-space-950-default: 6.8rem;
+  --spacing-text-primitive-size-2xl-default: 1.97rem;
+  --spacing-text-primitive-size-base-default: 1rem;
+  --spacing-text-primitive-size-lg-default: 1.36rem;
+  --spacing-text-primitive-size-md-default: 1.13rem;
+  --spacing-text-primitive-size-sm-default: 0.94rem;
+  --spacing-text-primitive-size-xl-default: 1.64rem;
+  --spacing-text-primitive-size-xs-default: 0.78rem;
+}

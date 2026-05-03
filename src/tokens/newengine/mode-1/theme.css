@@ -1,0 +1,102 @@
+/*
+ * Design tokens exported from Figma
+ * Exported at: 2026-05-03T06:38:16.723Z
+ * Format: Tailwind CSS v4 @theme variables
+ * Usage: import this file after @import "tailwindcss";
+ */
+@theme static {
+  /* Colors */
+  --color-checkbox-bg-checked-default: oklch(0.702 0.158 160.438);
+  --color-checkbox-bg-default-default: oklch(0.967 0.003 264.542);
+  --color-checkbox-bg-disabled-default: oklch(0.967 0.003 264.542);
+  --color-checkbox-bg-indeterminate-default: oklch(0.807 0.101 250.446);
+  --color-checkbox-border-checked-default: oklch(0.702 0.158 160.438);
+  --color-checkbox-border-default-default: oklch(0.129 0.041 264.695 / 0.15);
+  --color-checkbox-border-disabled-default: oklch(0.872 0.011 261.787);
+  --color-checkbox-border-error-default: oklch(0.702 0.189 22.228);
+  --color-checkbox-border-indeterminate-default: oklch(0.807 0.101 250.446);
+  --color-checkbox-fg-checked-default: oklch(1 0 0);
+  --color-checkbox-fg-disabled-default: oklch(0.551 0.027 264.328);
+  --color-checkbox-fg-indeterminate-default: oklch(1 0 0);
+  --color-checkbox-ring-default-default: oklch(0 0 0);
+  --color-checkbox-ring-error-default: oklch(0.702 0.189 22.228);
+  --color-numeric-input-bg: oklch(0.129 0.041 264.695 / 0.05);
+  --color-numeric-input-bg-default-disabled: oklch(0.967 0.003 264.542);
+  --color-numeric-input-border: oklch(0.129 0.041 264.695 / 0.15);
+  --color-numeric-input-border-danger-default: oklch(0.711 0.166 22.216);
+  --color-numeric-input-border-default-disabled: oklch(0.872 0.009 258.338);
+  --color-numeric-input-border-default-focus: oklch(0.809 0.096 251.813);
+  --color-numeric-input-border-default-hover: oklch(0.129 0.041 264.695 / 0.26);
+  --color-numeric-input-fg: oklch(0.13 0.043 265.132);
+  --color-numeric-input-fg-default-disabled: oklch(0.551 0.023 264.364);
+  --color-numeric-input-input-bg: oklch(0 0 0 / 0);
+  --color-numeric-input-input-bg-default-focus: oklch(0.129 0.041 264.695 / 0.15);
+  --color-numeric-input-input-bg-default-hover: oklch(0.129 0.041 264.695 / 0.1);
+  --color-numeric-input-ring: oklch(0 0 0);
+  --color-numeric-input-trigger-bg: oklch(0.129 0.041 264.695 / 0.05);
+  --color-numeric-input-trigger-bg-default-hover: oklch(0.129 0.041 264.695 / 0.1);
+  --color-numeric-input-trigger-container-bg: oklch(0.129 0.041 264.695 / 0.15);
+  --color-numeric-input-trigger-fg: oklch(0.13 0.043 265.132);
+  --color-numeric-input-trigger-fg-default-hover: oklch(0.13 0.043 265.132);
+  --color-textarea-bg: oklch(0.129 0.041 264.695 / 0.05);
+  --color-textarea-bg-default-disabled: oklch(0.967 0.003 264.542);
+  --color-textarea-bg-default-focus: oklch(0.129 0.041 264.695 / 0.15);
+  --color-textarea-bg-default-hover: oklch(0.129 0.041 264.695 / 0.1);
+  --color-textarea-border: oklch(0.129 0.041 264.695 / 0.15);
+  --color-textarea-border-danger-default: oklch(0.711 0.166 22.216);
+  --color-textarea-border-danger-hover: oklch(0.637 0.208 25.331);
+  --color-textarea-border-default-disabled: oklch(0.872 0.009 258.338);
+  --color-textarea-border-default-focus: oklch(0.809 0.096 251.813);
+  --color-textarea-border-default-hover: oklch(0.129 0.041 264.695 / 0.26);
+  --color-textarea-border-success-default: oklch(0.696 0.149 162.48);
+  --color-textarea-border-success-hover: oklch(0.596 0.127 163.225);
+  --color-textarea-border-warning-default: oklch(0.795 0.162 86.047);
+  --color-textarea-border-warning-hover: oklch(0.681 0.142 75.834);
+  --color-textarea-fg: oklch(0.13 0.043 265.132);
+  --color-textarea-fg-default-disabled: oklch(0.551 0.023 264.364);
+  --color-textarea-fg-default-placeholder: oklch(0.554 0.041 257.417);
+  --color-textarea-ring: oklch(0 0 0);
+  /* Fonts */
+  /* Measures */
+  --radius-checkbox-indeterminate-default: 0.25rem;
+  --radius-checkbox-root-default-default: 0.25rem;
+  --radius-numeric-input-root: 0.5rem;
+  --radius-numeric-input-root-lg-default: 0.75rem;
+  --radius-numeric-input-root-md-default: 0.5rem;
+  --radius-numeric-input-root-sm-default: 0.25rem;
+  --radius-textarea-root: 0.5rem;
+  --radius-textarea-root-md-default: 0.5rem;
+  --radius-textarea-root-sm-default: 0.25rem;
+  --spacing-border-checkbox-width-default: 0.06rem;
+  --spacing-border-checkbox-width-error-default: 0.13rem;
+  --spacing-border-numeric-input-width: 0.13rem;
+  --spacing-border-textarea-width: 0.13rem;
+  --spacing-border-textarea-width-validation-default: 0.19rem;
+  --spacing-checkbox-root-default-default: 0.94rem;
+  --spacing-image-root-lg-default: 15rem;
+  --spacing-image-root-md-default: 10rem;
+  --spacing-image-root-sm-default: 5rem;
+  --spacing-numeric-input-height-lg-default: 4.38rem;
+  --spacing-numeric-input-height-md-default: 2.75rem;
+  --spacing-numeric-input-height-sm-default: 2.06rem;
+  --spacing-numeric-input-input-x-lg-default: 0.88rem;
+  --spacing-numeric-input-input-x-md-default: 0.57rem;
+  --spacing-numeric-input-input-x-sm-default: 0.31rem;
+  --spacing-numeric-input-root-lg-default: 0rem;
+  --spacing-numeric-input-root-md-default: 0rem;
+  --spacing-numeric-input-root-sm-default: 0rem;
+  --spacing-numeric-input-trigger-x: 0.57rem;
+  --spacing-numeric-input-trigger-y: 0rem;
+  --spacing-text-numeric-input-size-lg-default: 1.36rem;
+  --spacing-text-numeric-input-size-md-default: 1.13rem;
+  --spacing-text-numeric-input-size-sm-default: 0.94rem;
+  --spacing-text-textarea-size-lg-default: 1.36rem;
+  --spacing-text-textarea-size-md-default: 1.13rem;
+  --spacing-text-textarea-size-sm-default: 0.94rem;
+  --spacing-textarea-x-lg-default: 0.88rem;
+  --spacing-textarea-x-md-default: 0.57rem;
+  --spacing-textarea-x-sm-default: 0.31rem;
+  --spacing-textarea-y-lg-default: 0.88rem;
+  --spacing-textarea-y-md-default: 0.57rem;
+  --spacing-textarea-y-sm-default: 0.31rem;
+}
