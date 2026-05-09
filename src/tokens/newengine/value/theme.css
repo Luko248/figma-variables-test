@@ -1,0 +1,74 @@
+/*
+ * Design tokens exported from Figma
+ * Exported at: 2026-05-09T08:05:53.717Z
+ * Format: Tailwind CSS v4 @theme variables
+ * Usage: import this file after @import "tailwindcss";
+ */
+@theme static {
+  /* Colors */
+  /* Fonts */
+  --font-weight-bold: 700;
+  --font-weight-light: 300;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  /* Measures */
+  --duration-fast: 1ms;
+  --duration-normal: 2ms;
+  --duration-slow: 3ms;
+  --radius-2xl: 1rem;
+  --radius-full: 624.94rem;
+  --radius-lg: 0.75rem;
+  --radius-md: 0.5rem;
+  --radius-none: 0rem;
+  --radius-sm: 0.25rem;
+  --spacing-0: 0rem;
+  --spacing-100: 0.31rem;
+  --spacing-150: 0.63rem;
+  --spacing-200: 0.94rem;
+  --spacing-250: 1.25rem;
+  --spacing-300: 1.56rem;
+  --spacing-32: 2rem;
+  --spacing-350: 1.88rem;
+  --spacing-400: 2.19rem;
+  --spacing-450: 2.5rem;
+  --spacing-48: 3rem;
+  --spacing-50: 0.19rem;
+  --spacing-500: 2.81rem;
+  --spacing-550: 3.13rem;
+  --spacing-600: 3.75rem;
+  --spacing-64: 4rem;
+  --spacing-650: 4.06rem;
+  --spacing-70: 4.38rem;
+  --spacing-700: 4.38rem;
+  --spacing-750: 5rem;
+  --spacing-800: 5.63rem;
+  --spacing-850: 6.25rem;
+  --spacing-900: 6.88rem;
+  --spacing-950: 7.5rem;
+  --spacing-96: 6rem;
+  --spacing-border-lg: 0.19rem;
+  --spacing-border-md: 0.13rem;
+  --spacing-border-sm: 0.06rem;
+  --spacing-container-2xl: 42rem;
+  --spacing-container-2xs: 18rem;
+  --spacing-container-3xl: 48rem;
+  --spacing-container-3xs: 16rem;
+  --spacing-container-4xl: 56rem;
+  --spacing-container-5xl: 64rem;
+  --spacing-container-6xl: 72rem;
+  --spacing-container-lg: 32rem;
+  --spacing-container-max-w: 80rem;
+  --spacing-container-md: 28rem;
+  --spacing-container-sm: 24rem;
+  --spacing-container-xl: 36rem;
+  --spacing-container-xs: 20rem;
+  --spacing-ring-offset: 0.13rem;
+  --spacing-ring-width: 0.13rem;
+  --spacing-text-2xl: 2.44rem;
+  --spacing-text-base: 1rem;
+  --spacing-text-lg: 1.56rem;
+  --spacing-text-md: 1.25rem;
+  --spacing-text-sm: 1rem;
+  --spacing-text-xl: 1.95rem;
+  --spacing-text-xs: 0.8rem;
+}
